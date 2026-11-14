@@ -1,0 +1,12 @@
+# Secrets — never commit these
+.env
+.env.*
+*.key
+auth.json
+models.json
+
+# Pi local state
+.pi/
+node_modules/
+dist/
+tmp/

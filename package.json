@@ -1,0 +1,15 @@
+{
+  "name": "pi-extension-verda",
+  "version": "0.1.0",
+  "description": "Pi provider extension for Verda Inference (OpenAI-compatible). Secure by default: reads $VERDA_INFERENCE_API_KEY, no tokens in code.",
+  "keywords": ["pi-package", "pi-extension", "verda"],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/verda.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*"
+  }
+}
